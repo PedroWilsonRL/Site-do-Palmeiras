@@ -1,0 +1,205 @@
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #fff5f5;
+}
+
+header {
+    position: relative;
+    background-image: url('Imagens/header.jpg'); /* Imagem de fundo */
+    background-size: cover; /* A imagem cobrirá todo o header */
+    background-position: center; /* Centraliza a imagem de fundo */
+    height: 300px; /* Ajuste a altura conforme necessário */
+}
+
+/* Logo sobre a imagem de fundo */
+header .logo {
+    position: absolute;
+    top: 30px; /* Ajuste a distância do topo */
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza a logo horizontalmente */
+    width: 200px; /* Ajuste o tamanho da logo como desejar */
+    height: auto;
+    animation: logoAnim 3s ease-in-out infinite; /* Adiciona a animação */
+}
+
+/* Navegação */
+header nav {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(76, 175, 80, 0.8); /* Fundo semi-transparente */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Animação da logo */
+@keyframes logoAnim {
+    0% {
+        transform: translateX(-50%) scale(1);
+    }
+    50% {
+        transform: translateX(-50%) scale(1.1);
+    }
+    100% {
+        transform: translateX(-50%) scale(1);
+    }
+}
+
+/* Conteúdo principal */
+main {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    padding: 40px;
+    background-color: #fff;
+    height: 700px;
+    background-image: url('Imagens/background.jpg'); /* Imagem de fundo */
+    background-size: cover; /* A imagem cobrirá toda a área do main */
+    background-position: center; /* Centraliza a imagem de fundo */
+}
+
+/* Seção dentro do main */
+main section {
+    text-align: center; /* Centraliza o texto horizontalmente dentro da seção */
+}
+
+/* Estilo para o h2, se necessário */
+main h2 {
+    margin: 0; /* Remove a margem padrão do h2 */
+    font-size: 50px; /* Ajuste o tamanho da fonte conforme necessário */
+    color: #ffffff; /* Ajuste a cor do texto conforme necessário */
+}
+
+/* Imagem abaixo do texto */
+.titulo-imagem {
+    margin-top: 20px; /* Ajuste a distância entre o texto e a imagem */
+    max-width: 20%; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+main2 {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    padding: 40px;
+    background-color: #fff;
+    height: 700px;
+    background-image: url('Imagens/background.jpg'); /* Imagem de fundo */
+    background-size: cover; /* A imagem cobrirá toda a área do main */
+    background-position: center; /* Centraliza a imagem de fundo */
+}
+
+/* Seção dentro do main */
+main2 section {
+    text-align: center; /* Centraliza o texto horizontalmente dentro da seção */
+}
+
+/* Estilo para o h2, se necessário */
+main2 h2 {
+    margin: 0; /* Remove a margem padrão do h2 */
+    font-size: 50px; /* Ajuste o tamanho da fonte conforme necessário */
+    color: #ffffff; /* Ajuste a cor do texto conforme necessário */
+}
+
+.titulo-imagem2 {
+    margin-top: 50px; /* Ajuste a distância entre o texto e a imagem */
+    max-width: 70%; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+main3 {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    padding: 40px;
+    background-color: #fff;
+    height: 700px;
+    background-image: url('Imagens/background.jpg'); /* Imagem de fundo */
+    background-size: cover; /* A imagem cobrirá toda a área do main */
+    background-position: center; /* Centraliza a imagem de fundo */
+}
+
+/* Seção dentro do main */
+main3 section {
+    text-align: center; /* Centraliza o texto horizontalmente dentro da seção */
+}
+
+/* Estilo para o h2, se necessário */
+main3 h2 {
+    margin: 0; /* Remove a margem padrão do h2 */
+    font-size: 50px; /* Ajuste o tamanho da fonte conforme necessário */
+    color: #ffffff; /* Ajuste a cor do texto conforme necessário */
+}
+
+.titulo-imagem3 {
+    margin-top: 50px; /* Ajuste a distância entre o texto e a imagem */
+    max-width: 70%; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+main4 {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    padding: 40px;
+    background-color: #fff;
+    height: 700px;
+    background-image: url('Imagens/background.jpg'); /* Imagem de fundo */
+    background-size: cover; /* A imagem cobrirá toda a área do main */
+    background-position: center; /* Centraliza a imagem de fundo */
+}
+
+/* Seção dentro do main */
+main4 section {
+    text-align: center; /* Centraliza o texto horizontalmente dentro da seção */
+}
+
+/* Estilo para o h2, se necessário */
+main4 h2 {
+    margin: 0; /* Remove a margem padrão do h2 */
+    font-size: 50px; /* Ajuste o tamanho da fonte conforme necessário */
+    color: #ffffff; /* Ajuste a cor do texto conforme necessário */
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
